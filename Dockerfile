@@ -29,6 +29,7 @@ COPY app.py \
      transform_filtered_data.py \
      ./
 
+# expose the port on the container
 EXPOSE 8000
-# run the streamlit app with logging enabled
-CMD streamlit run app.py --server.port 8000 --log_level debug
+# run the streamlit app with the correct logging flag
+CMD [ "streamlit", "run", "app.py", "--server.port", "8000", "--logger.level", "debug" ]
