@@ -1,0 +1,162 @@
+2025-03-22 07:26:01.120 Removing orphaned files...
+2025-03-22 07:26:01.310 Watcher created for /app/data_cleaning.py
+2025-03-22 07:26:01.312 Watcher created for /app/content_based_filtering.py
+2025-03-22 07:26:01.313 Watcher created for /app/collaborative_filtering.py
+2025-03-22 07:26:01.314 Watcher created for /app/hybrid_recommendations.py
+2025-03-22 07:26:01.316 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2025-03-22 07:26:42.455 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$ID-1d3c0dd5e39b247f209a6542d2f2b0e3-None"
+      int_value: 1
+    }
+    widgets {
+      id: "$$ID-f1fd5ee94f3f1a42f7186118b069df4b-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$ID-7c7c16ebf2271fb6326df61473601bec-None"
+      string_value: "Love Story"
+    }
+    widgets {
+      id: "$$ID-30e115030afef0a187a9a44791ce591b-None"
+      string_value: ""
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+}
+
+2025-03-22 07:26:42.456 Beginning script thread
+2025-03-22 07:26:42.456 Running script RerunData(widget_states=widgets {
+  id: "$$ID-1d3c0dd5e39b247f209a6542d2f2b0e3-None"
+  int_value: 1
+}
+widgets {
+  id: "$$ID-f1fd5ee94f3f1a42f7186118b069df4b-None"
+  int_value: 0
+}
+widgets {
+  id: "$$ID-7c7c16ebf2271fb6326df61473601bec-None"
+  string_value: "Love Story"
+}
+widgets {
+  id: "$$ID-30e115030afef0a187a9a44791ce591b-None"
+  string_value: ""
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815')
+2025-03-22 07:26:42.457 Disconnecting files for session with ID 34245cfe-6ec9-4e44-a5a9-411b518f8ed4
+2025-03-22 07:26:42.457 Sessions still active: dict_keys([])
+2025-03-22 07:26:42.457 Files: 0; Sessions with files: 0
+2025-03-22 07:26:43.634 Removing orphaned files...
+2025-03-22 07:26:43.699 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2025-03-22 07:26:54.827 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$ID-1d3c0dd5e39b247f209a6542d2f2b0e3-None"
+      int_value: 1
+    }
+    widgets {
+      id: "$$ID-f1fd5ee94f3f1a42f7186118b069df4b-None"
+      int_value: 0
+    }
+    widgets {
+      id: "$$ID-7c7c16ebf2271fb6326df61473601bec-None"
+      string_value: "Love Story"
+    }
+    widgets {
+      id: "$$ID-30e115030afef0a187a9a44791ce591b-None"
+      string_value: "Taylor Swift"
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+}
+
+2025-03-22 07:26:54.829 Beginning script thread
+2025-03-22 07:26:54.829 Running script RerunData(widget_states=widgets {
+  id: "$$ID-1d3c0dd5e39b247f209a6542d2f2b0e3-None"
+  int_value: 1
+}
+widgets {
+  id: "$$ID-f1fd5ee94f3f1a42f7186118b069df4b-None"
+  int_value: 0
+}
+widgets {
+  id: "$$ID-7c7c16ebf2271fb6326df61473601bec-None"
+  string_value: "Love Story"
+}
+widgets {
+  id: "$$ID-30e115030afef0a187a9a44791ce591b-None"
+  string_value: "Taylor Swift"
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815')
+2025-03-22 07:26:54.829 Disconnecting files for session with ID 34245cfe-6ec9-4e44-a5a9-411b518f8ed4
+2025-03-22 07:26:54.829 Sessions still active: dict_keys([])
+2025-03-22 07:26:54.829 Files: 0; Sessions with files: 0
+2025-03-22 07:26:56.013 Removing orphaned files...
+2025-03-22 07:26:56.078 Script run finished successfully; removing expired entries from MessageCache (max_age=2)
+2025-03-22 07:27:44.143 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$ID-1d3c0dd5e39b247f209a6542d2f2b0e3-None"
+      int_value: 1
+    }
+    widgets {
+      id: "$$ID-7c7c16ebf2271fb6326df61473601bec-None"
+      string_value: "Love Story"
+    }
+    widgets {
+      id: "$$ID-30e115030afef0a187a9a44791ce591b-None"
+      string_value: "Taylor Swift"
+    }
+    widgets {
+      id: "$$ID-554e815e89af29181549622b0b323707-None"
+      int_value: 2
+    }
+    widgets {
+      id: "$$ID-23bde826e98346e5baf815dc147be87e-None"
+      double_array_value {
+        data: 5
+      }
+    }
+    widgets {
+      id: "$$ID-7e9b0642f24481c745579a5b873989b2-None"
+      trigger_value: true
+    }
+  }
+  page_script_hash: "3f41e546893dc64b71aaacad12cad815"
+}
+
+2025-03-22 07:27:44.147 Beginning script thread
+2025-03-22 07:27:44.147 Running script RerunData(widget_states=widgets {
+  id: "$$ID-1d3c0dd5e39b247f209a6542d2f2b0e3-None"
+  int_value: 1
+}
+widgets {
+  id: "$$ID-7c7c16ebf2271fb6326df61473601bec-None"
+  string_value: "Love Story"
+}
+widgets {
+  id: "$$ID-30e115030afef0a187a9a44791ce591b-None"
+  string_value: "Taylor Swift"
+}
+widgets {
+  id: "$$ID-554e815e89af29181549622b0b323707-None"
+  int_value: 2
+}
+widgets {
+  id: "$$ID-23bde826e98346e5baf815dc147be87e-None"
+  double_array_value {
+    data: 5
+  }
+}
+widgets {
+  id: "$$ID-7e9b0642f24481c745579a5b873989b2-None"
+  trigger_value: true
+}
+, page_script_hash='3f41e546893dc64b71aaacad12cad815')
+2025-03-22 07:27:44.147 Disconnecting files for session with ID 34245cfe-6ec9-4e44-a5a9-411b518f8ed4
+2025-03-22 07:27:44.147 Sessions still active: dict_keys([])
+2025-03-22 07:27:44.147 Files: 0; Sessions with files: 0
