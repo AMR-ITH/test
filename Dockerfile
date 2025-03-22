@@ -33,4 +33,4 @@ COPY app.py \
 EXPOSE 8000
 
 # run the streamlit app
-CMD [ "streamlit", "run", "app.py", "--server.port" ,"8000" ]
+CMD streamlit run app.py --server.port 8000 2>&1 | ts '[%Y-%m-%d %H:%M:%S]' >> app.log
