@@ -50,7 +50,7 @@ artist_name = artist_name.lower()
 # k recommndations
 k = st.selectbox('How many recommendations do you want?', [5,10,15,20], index=1)
 
-if ((st.session_state.filtered_data["name"] == song_name) & (st.session_state.filtered_data["artist"] == artist_name)).any():   
+if ((st.session_state.filtered_data["name"].str.lower() == song_name.lower()) & (st.session_state.filtered_data["artist"] == artist_name)).any():   
     # type of filtering
     filtering_type = st.selectbox(label= 'Select the type of filtering:', 
                                 options= ['Content-Based Filtering', 
@@ -74,7 +74,7 @@ else:
 # Button
 if filtering_type == 'Content-Based Filtering':
     if st.button('Get Recommendations'):
-        if ((st.session_state.songs_data["name"] == song_name) & (st.session_state.songs_data['artist'] == artist_name)).any():
+        if ((st.session_state.songs_data["name"].str.lower() == song_name.lower()) & (st.session_state.songs_data["artist"].str.lower() == artist_name.lower())).any():
             st.write('Recommendations for', f"**{song_name}** by **{artist_name}**")
             recommendations = content_recommendation(song_name=song_name,
                                                      artist_name=artist_name,
@@ -106,7 +106,8 @@ if filtering_type == 'Content-Based Filtering':
             
 elif filtering_type == 'Collaborative Filtering':
     if st.button('Get Recommendations'):
-        if ((st.session_state.filtered_data["name"] == song_name) & (st.session_state.filtered_data["artist"] == artist_name)).any():
+        if ((st.session_state.filtered_data["name"].str.lower() == song_name.lower()) & 
+    (st.session_state.filtered_data["artist"].str.lower() == artist_name.lower())).any():
             st.write('Recommendations for', f"**{song_name}** by **{artist_name}**")
             recommendations = collaborative_recommendation(song_name=song_name,
                                                            artist_name=artist_name,
@@ -139,7 +140,9 @@ elif filtering_type == 'Collaborative Filtering':
 
 elif filtering_type == "Hybrid Recommender System":
     if st.button('Get Recommendations'):
-        if ((st.session_state.filtered_data["name"] == song_name) & (st.session_state.filtered_data["artist"] == artist_name)).any():
+        if ((st.session_state.filtered_data["name"].str.lower() == song_name.lower()) & 
+    (st.session_state.filtered_data["artist"].str.lower() == artist_name.lower())).any():
+
             st.write('Recommendations for', f"**{song_name}** by **{artist_name}**")
             recommender = HybridRecommenderSystem(
                                                     number_of_recommendations= k,
